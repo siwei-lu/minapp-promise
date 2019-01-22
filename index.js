@@ -1,6 +1,8 @@
 // @flow
+declare var wx: Object
+
 export const _promisify = (wx: any, prop: string, option: any) =>
-  new Promise((resolve, reject) => {
+  new Promise<*>((resolve, reject) => {
     const target = wx[prop]
 
     if (!target) {
