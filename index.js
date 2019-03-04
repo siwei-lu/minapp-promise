@@ -6,7 +6,7 @@ export const _promisify = (wx: any, prop: string, option: any) =>
     const target = wx[prop]
 
     if (!target) {
-      reject('No such methods in wx!')
+      reject('No such method in wx!')
       return
     }
 
