@@ -1,6 +1,6 @@
 {
   "name": "minapp-promise",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "不到 1KB 的小程序异步接口 Promise 化",
   "main": "dist/index.js",
   "miniprogram_dist": "dist",
