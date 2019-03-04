@@ -23,6 +23,10 @@
     pro.request({ url }).then(handleResponse).catch(handleError)
     ```
 
+4. 配合 `VSCode` 使用可获得代码提示
+
+![](./doc/1.png)
+
 ## 注意事项
 
 - 确保开发者工具中 `ES6 转 ES5` 选项开启
@@ -46,7 +50,21 @@
       .catch(() => console.log('showToast failed'))
     ```
 
+- `d.ts` 文件
+
+    由于个人精力有限，且小程序接口太多，所以目前只写了一部分接口的类型声明，预计将在一个月之内完成全部类型声明。
+
 ## 更新记录
+
+### v0.1.0
+
+#### Feats:
+
+- 添加部分接口的 `d.ts`，可在 `VSCode` 中进行代码提示
+
+#### Fixes:
+
+- 解决新版开发者工具中打开 `上传时进行代码保护` 后编译报错
 
 ### v0.0.2
 
